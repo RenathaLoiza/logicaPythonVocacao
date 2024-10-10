@@ -88,3 +88,79 @@ print("##############################################################")
 #taboada 1 ate 10
 print("taboada ")  
 
+num4=int(input("Digite um numero "))
+for x in range(1, 11):
+ 
+  taboada= num4 * x
+print(f"{num4} X {x} ={taboada}")
+
+print("##############################################################")
+#.Verificação de Idade
+print("Verificação de Idade ")  
+
+idadeUsuario=int(input("Digite qula a sua idade "))
+
+if idadeUsuario < 18:
+   print("você ainda é menor de idade")
+else:
+   print("Você é maior de idade")
+
+print("##############################################################")
+#Calculadora simples
+print("Calculadora simples") 
+
+opcao=int(input("voce deseja 1-soma 2-subtração 3-multiplicação 4-divisão"))
+
+if opcao == 1:
+   num5=int(input("Digite o primeiro numero"))
+   num6=int(input("Digite o segundo numero"))
+   som= num5+num6
+   print(f"resultado da soma de numero{num5}+ {num6}={som}")
+elif opcao==2:
+   num5=int(input("Digite o primeiro numero"))
+   num6=int(input("Digite o segundo numero"))
+   som= num5-num6
+   print(f"resultado da soma de numero{num5}-{num6}={som}")
+elif opcao==3:
+   num5=int(input("Digite o primeiro numero"))
+   num6=int(input("Digite o segundo numero"))
+   som= num5*num6
+   print(f"resultado da soma de numero{num5}* {num6}={som}")
+elif opcao==4:
+   num5=int(input("Digite o primeiro numero"))
+   num6=int(input("Digite o segundo numero"))
+   som= num5/num6
+   print(f"resultado da soma de numero{num5}/ {num6}={som}")
+  
+print("##############################################################")
+#Número Primo
+print("Número Primo") 
+
+numeroPrimo=int(input("Digite um numero"))
+
+if numeroPrimo < 2:
+    print(f"Seu numero:{numeroPrimo}")
+   
+else:
+   print(f"Seu numero:{numeroPrimo} é primo")
+
+
+print("##############################################################")
+#.Sequência de Fibonacci
+print("Sequência de Fibonacci") 
+
+fn=fn-1+fn-2
+
+print("##############################################################")
+#Fatorial
+print("Fatorial") 
+numeroInteiro=int(input("Didgite um numero inteiro"))
+
+
+print("##############################################################")
+#Verificação de Palíndromo
+print("Verificação de Palíndromo") 
+print("##############################################################")
+#taboada 1 ate 10
+print("taboada ")  
+
