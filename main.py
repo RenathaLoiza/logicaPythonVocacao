@@ -160,7 +160,5 @@ numeroInteiro=int(input("Didgite um numero inteiro"))
 print("##############################################################")
 #Verificação de Palíndromo
 print("Verificação de Palíndromo") 
-print("##############################################################")
-#taboada 1 ate 10
-print("taboada ")  
+
 
